@@ -4,7 +4,7 @@ from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 from PIL import Image
 
-root = "./m_mnist/"
+root = "./mnist/"
 
 # 准备数据
 def default_loader(path):
